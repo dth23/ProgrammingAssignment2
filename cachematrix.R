@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions work together to solve for and cache the inverse of a matrix. In so doing, 
+## the inverse does not need to be recalculated, if the input matrix is unchanged,if is needed again. The 
+## Th epreviously solved for inverse matrix is pulled from the cache.
 
-## Write a short comment describing this function
+## makeCacheMatrix is a function that 1) solves for the inverse the arguement matrix; 2) this result
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL

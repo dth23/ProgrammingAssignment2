@@ -2,11 +2,11 @@
 ## the inverse does not need to be recalculated, if the input matrix is unchanged,if is needed again. The 
 ## Th epreviously solved for inverse matrix is pulled from the cache.
 
-## makeCacheMatrix is a function that creates a special matrix that is a list 
-## 1) sets the value of the matrix; 
-## 2) gets the value of the matrix;
-## 3) sets the value of the matrix inverse; and
-## 4) gets the value of the matrix inverse.
+## makeCacheMatrix is a function that creates a special matrix that is a list containing a function to:
+## 1) set the value of the matrix; 
+## 2) get the value of the matrix;
+## 3) set the value of the matrix inverse; and
+## 4) get the value of the matrix inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
